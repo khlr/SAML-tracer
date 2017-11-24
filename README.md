@@ -43,7 +43,9 @@ the latest commit in your repository.
 You need to set `xpinstall.signatures.required` to false in Firefox
 `about:config` to be able to load this `xpi`-file. You can then run
 `firefox samltracer.xpi` (or open the file in Firefox). Don't forget
-to re-enable `xpinstall.signatures.required` when you're done.
+to re-enable `xpinstall.signatures.required` when you're done. 
+(NB This can only be done in Firefox Developer or Firefox Nightly 
+releases, the main release will NOT let you disable signature checking!)
 
 
 License
