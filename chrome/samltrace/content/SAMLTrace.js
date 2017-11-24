@@ -4,7 +4,7 @@ var EXPORTED_SYMBOLS = ["SAMLTrace"];
 // Import import/export feature
 //Components.utils.import("chrome://samltrace/content/SAMLTraceIO.js");
 
-
+var browser = browser || chrome
 
 if ("undefined" == typeof(SAMLTrace)) {
   var SAMLTrace = {};
